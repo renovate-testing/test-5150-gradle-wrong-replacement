@@ -1,0 +1,6 @@
+dependencies {
+  implementation "mysql:mysql-connector-java::mockServer"
+  constraints {
+    implementation "mysql:mysql-connector-java:6.0.5"
+  }
+}
